@@ -9,9 +9,6 @@ cc_library_shared {
         "libboost_predef",
         "libboost_config",
     ],
-    shared_libs: [
-        "libboost_log",
-    ],
     target: {
         android: {
             cflags: [
