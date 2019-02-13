@@ -14,12 +14,14 @@ cc_library_shared {
             cflags: [
                 "-fPIC",
                 "-DPIC",
+                "-Wno-error=non-virtual-dtor",
             ],
         },
         not_windows: {
             cflags: [
                 "-fPIC",
                 "-DPIC",
+                "-Wno-error=non-virtual-dtor",
             ],
          },
     },
